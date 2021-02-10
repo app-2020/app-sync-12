@@ -4,7 +4,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 
-df = pd.read_csv("example-3/bike-accidents.csv")
+df = pd.read_csv("bike-accidents.csv")
 
 app = dash.Dash(__name__)
 
@@ -47,7 +47,7 @@ def update(districts):
     return {
         "data": data,
         "layout": {
-            "title": "Stock prices"
+            "title": "accidents"
         }
     }
 
