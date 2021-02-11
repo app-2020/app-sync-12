@@ -51,4 +51,4 @@ def update(districts):
         }
     }
 
-app.run_server(debug=True)
+app.run_server()

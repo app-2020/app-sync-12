@@ -48,4 +48,4 @@ def change_h2_on_input_change(value):
       }
     }
 
-app.run_server(debug=True)
+app.run_server()

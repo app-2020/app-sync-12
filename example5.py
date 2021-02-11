@@ -89,4 +89,4 @@ def update_by_genre_and_role(district):
     return figure
 
 
-app.run_server(debug=True)
+app.run_server()
